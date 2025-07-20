@@ -35,7 +35,7 @@ At the core of this ecosystem lies [NexAscend](https://github.com/mj-nexara/nexa
 
 ### 📚 Documentation
 
-Project documentation is continuously evolving at [docs.nexascend.io](#) *(Replace with live MkDocs link once deployed)*  
+Project documentation is continuously evolving at [docs.nexascend.io](#https://mj-nexara.github.io/nexara-protocol)  
 To contribute or request updates, open an issue or pull request in the relevant repository.
 
 ---
