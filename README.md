@@ -1,4 +1,3 @@
-<!--
 # 🧠 MJ-NEXARA — The Scalable Core of Ethical Systems
 
 Welcome to MJ-NEXARA, the cloud-native operational engine of Nexara.  
@@ -85,4 +84,3 @@ you are now entrusted with its continuation.
 
 — MJ Ahmad
 
--->
