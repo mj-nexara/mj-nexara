@@ -35,7 +35,7 @@ At the core of this ecosystem lies [NexAscend](https://github.com/mj-nexara/nexa
 
 ### 📚 Documentation
 
-Project documentation is continuously evolving at [docs.nexascend.io](#https://mj-nexara.github.io/nexara-protocol)  
+Project documentation is continuously evolving at [docs.nexascend.io](https://mj-nexara.github.io/nexara-protocol)  
 To contribute or request updates, open an issue or pull request in the relevant repository.
 
 ---
@@ -44,5 +44,5 @@ To contribute or request updates, open an issue or pull request in the relevant 
 
 This ecosystem welcomes ethical collaborators and developers who believe in technology with integrity. Let's build something that lasts.
 
-> _"Ethics isn't an add-on—it's the architecture."_ — MJ Ahmad
+> _"Ethics isn't an add-on—it's the architecture."_ — [MJ Ahmad](https://mj-nexara.github.io/mjahmad)
 
