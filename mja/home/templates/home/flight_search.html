@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Search</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+        .search-box {
+            background: white;
+            padding: 30px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-box">
+        <h2>✈️ Flight Search</h2>
+        <form method="GET" action="#">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="e.g. Dhaka">
+
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" placeholder="e.g. Chittagong">
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+
+            <button type="submit">Search Flights</button>
+        </form>
+    </div>
+</body>
+</html>
