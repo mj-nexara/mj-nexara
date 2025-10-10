@@ -1,6 +1,6 @@
 # ☀️ Nexara Sovereign (Central Main Repository)
 
-**A Universal Kernel for Transparent, Accountable, and Ethical Systems**
+## A Universal Kernel for Transparent, Accountable, and Ethical Systems
 
 ---
 
@@ -18,11 +18,71 @@ See [DEDICATION_EN.md](./DEDICATION_EN.md) and [DEDICATION_BN.md](./DEDICATION_B
 ## 🏛️ Ecosystem Overview
 
 **mj-nexara** is the central kernel and dashboard of the NexaraSovereign System.  
-It provides the unified entry point, system overview, and integration for all pillars and repositories.
+It serves as the unified entry point, architectural anchor, and audit control panel for all sovereign layers.
 
 ---
 
-### 🌐 Pillar Repositories
+## 🧭 Seven-Layer Sovereign Architecture
+
+```mermaid
+graph TD
+  A[Nexara Dashboard & Docs]
+
+  subgraph Governance & Policy Layer
+    B[Nexara Governance]
+  end
+
+  subgraph Identity & Access Layer
+    C[Nexara Identity]
+  end
+
+  subgraph Process & Activity Orchestration
+    D[Nexara Orchestration]
+  end
+
+  subgraph Transparency, Logging & Audit Layer
+    E[Nexara Audit]
+  end
+
+  subgraph Resource & Asset Management
+    F[Nexara Treasury]
+  end
+
+  subgraph Rights & Grievance Redressal
+    G[Nexara Justice]
+  end
+
+  subgraph Inclusive Participation & Feedback
+    H[Nexara Participation]
+  end
+
+  %% Centralized Access
+  A --> B
+  A --> C
+  A --> D
+  A --> E
+  A --> F
+  A --> G
+  A --> H
+
+  %% Core Interconnections
+  D --> B
+  D --> C
+  D --> E
+  D --> F
+  D --> G
+  D --> H
+
+  %% Governance monitors and audits
+  B --> E
+  F --> E
+  G --> E
+  H --> E
+```
+
+---
+
+## 🌐 Pillar Repositories
 
 | Layer / Pillar      | Repository                                                   | Description                                 |
 |---------------------|-------------------------------------------------------------|---------------------------------------------|
@@ -49,40 +109,40 @@ It provides the unified entry point, system overview, and integration for all pi
 
 ## 📂 Repository Structure
 
-- `docs/` — System overview, architecture, dashboard guide, stewardship, FAQ.
-- `dashboard/` — Unified UI and CLI components.
-- `integration/` — API gateway, connectors to pillar repos.
-- `config/` — Example configuration and system schema.
-- `scripts/` — Utilities for setup and management.
-- `.github/` — Community health, issue templates, CI workflows.
+- docs/ — System overview, architecture, dashboard guide, stewardship, FAQ.
+- dashboard/ — Unified UI and CLI components.
+- integration/ — API gateway, connectors to pillar repos.
+- config/ — Example configuration and system schema.
+- scripts/ — Utilities for setup and management.
+- .github/ — Community health, issue templates, CI workflows.
 
 ---
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mj-nexara/mj-nexara.git
+   \\\ash
+   git clone <https://github.com/mj-nexara/mj-nexara.git>
    cd mj-nexara
-   ```
+   \\\
 
 2. **Install dependencies**
-   ```bash
+   \\\ash
    pip install -r requirements.txt
-   ```
+   \\\
 
 3. **Configuration**
-   - Copy `config/settings.example.yaml` to `config/settings.yaml` and configure as needed.
+   - Copy config/settings.example.yaml to config/settings.yaml and configure as needed.
 
 4. **Launch the dashboard**
-   ```bash
+   \\\ash
    python dashboard/ui/dashboard_app.py
-   ```
+   \\\
 
 5. **Command-line interface**
-   ```bash
+   \\\ash
    python dashboard/cli/cli.py
-   ```
+   \\\
 
 ---
 
@@ -91,6 +151,7 @@ It provides the unified entry point, system overview, and integration for all pi
 See [nexara-docs](https://github.com/mj-nexara/nexara-docs) for the full handbook and documentation.
 
 Key docs in this repository:
+
 - [System Overview](docs/system-overview.md)
 - [Architecture](docs/architecture.md)
 - [Ecosystem](docs/ecosystem.md)
@@ -134,10 +195,8 @@ See [LICENSE](LICENSE), [DEDICATION_EN.md](DEDICATION_EN.md), and [DEDICATION_BN
 
 - LinkedIn: [Jafor Ahmad](https://linkedin.com/in/jafor-ahmad/)
 - GitHub: [mj-nexara](https://github.com/mj-nexara.git)
-- Contact: mjahmad2024@outlook.com
+- Contact: <mjahmad2024@outlook.com>
 
 ---
 
-## 🌱 Let’s build a new era of trust, justice, and stewardship—together.
-
-
+## 🌱 Let’s build a new era of trust, justice, and stewardship—together
