@@ -22,37 +22,36 @@ It serves as the unified entry point, architectural anchor, and audit control pa
 
 ---
 
-## 🧭 Seven-Layer Sovereign Architecture
+### 🧭 Seven-Layer Sovereign Architecture
 
-```mermaid
 graph TD
   A[Nexara Dashboard & Docs]
 
-  subgraph Governance & Policy Layer
+  subgraph Governance-and-Policy-Layer
     B[Nexara Governance]
   end
 
-  subgraph Identity & Access Layer
+  subgraph Identity-and-Access-Layer
     C[Nexara Identity]
   end
 
-  subgraph Process & Activity Orchestration
+  subgraph Process-and-Activity-Orchestration
     D[Nexara Orchestration]
   end
 
-  subgraph Transparency, Logging & Audit Layer
+  subgraph Transparency-Logging-and-Audit-Layer
     E[Nexara Audit]
   end
 
-  subgraph Resource & Asset Management
+  subgraph Resource-and-Asset-Management
     F[Nexara Treasury]
   end
 
-  subgraph Rights & Grievance Redressal
+  subgraph Rights-and-Grievance-Redressal
     G[Nexara Justice]
   end
 
-  subgraph Inclusive Participation & Feedback
+  subgraph Inclusive-Participation-and-Feedback
     H[Nexara Participation]
   end
 
@@ -78,11 +77,10 @@ graph TD
   F --> E
   G --> E
   H --> E
-```
 
 ---
 
-## 🌐 Pillar Repositories
+### 🌐 Pillar Repositories
 
 | Layer / Pillar      | Repository                                                   | Description                                 |
 |---------------------|-------------------------------------------------------------|---------------------------------------------|
